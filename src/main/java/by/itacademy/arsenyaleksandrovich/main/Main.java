@@ -11,7 +11,6 @@ public class Main {
         WebDriver webDriver = new FirefoxDriver();
         webDriver.navigate().to("https://svyatoslav.biz/testlab/wt/index.php");
 
-
         String xpath ="/html/body/table/tbody/tr[2]/td[2]/form/table/tbody/tr[2]/td[2]/input";
         By by = By.xpath(xpath);
         WebElement webElement = webDriver.findElement(by);
