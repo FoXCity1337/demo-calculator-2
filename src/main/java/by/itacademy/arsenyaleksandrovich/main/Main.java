@@ -1,4 +1,4 @@
-package by.itacademy.arsenyaleksandrovich.calculator;
+package by.itacademy.arsenyaleksandrovich.main;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
