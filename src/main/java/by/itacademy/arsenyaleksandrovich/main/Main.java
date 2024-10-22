@@ -4,11 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Main {
     public static void main(String[] args) {
-        WebDriver webDriver = new FirefoxDriver();
+        WebDriver webDriver = new ChromeDriver();
         webDriver.navigate().to("https://svyatoslav.biz/testlab/wt/index.php");
 
         String xpath ="/html/body/table/tbody/tr[2]/td[2]/form/table/tbody/tr[2]/td[2]/input";
